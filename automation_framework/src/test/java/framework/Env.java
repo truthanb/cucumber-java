@@ -58,7 +58,7 @@ public final class Env {
              return;
         }
         try{
-            InputStream config_file = new FileInputStream(new File("C:\\Users\\Ben\\IdeaProjects\\cucumber-selenium\\automation_framework\\src\\test\\resources\\data\\configuration.yml"));
+            InputStream config_file = new FileInputStream(new File("automation_framework/src/test/resources/data/configuration.yml"));
             Yaml yaml = new Yaml();
             config = (Map<String, String>) yaml.load(config_file);
             time_out_duration = Integer.parseInt(config.get("time_out_duration"));
