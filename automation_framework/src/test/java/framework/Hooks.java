@@ -31,7 +31,7 @@ public class Hooks {
     }
 
     private void beforeAllHook() {
-        Utils.loadLog4J2Config();
+        //Utils.loadLog4J2Config();
         Env.loadConfig();
         Env.setBrowser();
     }
