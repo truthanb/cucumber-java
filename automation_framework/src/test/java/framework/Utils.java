@@ -31,7 +31,7 @@ public class Utils {
 
     static void loadLog4J2Config() {
         LoggerContext context = (LoggerContext) LogManager.getContext(false);
-        File file = new File("C:\\Users\\Ben\\IdeaProjects\\cucumber-selenium\\automation_framework\\src\\test\\resources\\log4j2.xml");
+        File file = new File("automation_framework/src/test/resources/log4j2.xml");
         context.setConfigLocation(file.toURI());
     }
 
