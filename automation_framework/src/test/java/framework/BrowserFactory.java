@@ -29,7 +29,7 @@ public class BrowserFactory {
             case "IE":
                 driver = drivers.get("IE");
                 if (driver == null) {
-                    System.setProperty("webdriver.ie.driver", "C:\\Users\\Ben\\IdeaProjects\\cucumber-selenium\\automation_framework\\src\\test\\resources\\browser_drivers\\IEDriverServer.exe");
+                    System.setProperty("webdriver.ie.driver", "\\src\\test\\resources\\browser_drivers\\IEDriverServer.exe");
                     DesiredCapabilities cap = new DesiredCapabilities();
                     cap.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
                     driver = new InternetExplorerDriver();
@@ -47,7 +47,7 @@ public class BrowserFactory {
                 }
                 break;
             case "Edge":
-                System.setProperty("webdriver.edge.driver", "C:\\Users\\Ben\\IdeaProjects\\cucumber-selenium\\automation_framework\\src\\test\\resources\\browser_drivers\\MicrosoftWebDriver.exe");
+                System.setProperty("webdriver.edge.driver", "\\src\\test\\resources\\browser_drivers\\MicrosoftWebDriver.exe");
                 driver = drivers.get("Edge");
                 if (driver == null) {
                     driver = new EdgeDriver();
