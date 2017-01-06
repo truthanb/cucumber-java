@@ -93,27 +93,22 @@
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.5</version>
         </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-core</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.5</version>
         </dependency>
         <dependency>
         <groupId>info.cukes</groupId>
         <artifactId>cucumber-java</artifactId>
-        <version>1.2.4</version>
+        <version>1.2.5</version>
         </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>1.2.4</version>
-        </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-picocontainer</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.5</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -129,6 +124,11 @@
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.5</version>
         </dependency>
     </dependencies>
 </project>
